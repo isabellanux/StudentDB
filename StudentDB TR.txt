@@ -1,0 +1,400 @@
+---------- StudentDB test run ----------
+
+[A]DD A STUDENT RECORD (CREATE) AND [S]AVE CHANGES AND QUIT APPLICATION
+
+Reading input file complete...
+
+        -------------------------------------------
+        ---------- Student Database App -----------
+        -------------------------------------------
+        [A]dd a student record          (C in CRUD)
+        [F]ind a student record         (R in CRUD)
+        [M]odify an existing record     (U in CRUD)
+        [D]elete an existing record     (D in CRUD)
+        [P]rint all records
+        [E]xit without saving changes
+        [S]ave changes and quit app application
+
+Enter user selection: a
+Enter the email address (primary key) to search: bellatn@uw.edu
+bellatn@uw.edu NOT FOUND.
+Adding a new student, Email: bellatn@uw.edu
+Enter first name: Isabella
+Enter last name: Nuxoll
+Enter grade pt average: 3.8
+[U]ndergrad or [G]rad student? u
+[1] Freshman, [2] Sophomore, [3] Junior, [4] Senior
+Enter the year/rank in school from above choices: 3
+Enter major degree program: IT
+
+        -------------------------------------------
+        ---------- Student Database App -----------
+        -------------------------------------------
+        [A]dd a student record          (C in CRUD)
+        [F]ind a student record         (R in CRUD)
+        [M]odify an existing record     (U in CRUD)
+        [D]elete an existing record     (D in CRUD)
+        [P]rint all records
+        [E]xit without saving changes
+        [S]ave changes and quit app application
+
+Enter user selection: sNow writing data to the output file...
+StudentDB.GradStudent
+David
+Dillon
+3.7
+ddillon@uw.edu
+2/11/2021 8:43:53 AM
+11111.99
+Dr. Donald Chinn
+StudentDB.Undergrad
+Alice
+Anderson
+4
+aanderson@uw.edu
+2/11/2021 8:43:53 AM
+Freshman
+Computer Science
+StudentDB.GradStudent
+Bob
+Bradshaw
+3.9
+bbradshaw@uw.edu
+2/11/2021 8:43:53 AM
+22222.99
+Dr. Matt Tolentino
+StudentDB.Undergrad
+Carlos
+Castaneda
+3.8
+ccastaneda@uw.edu
+2/11/2021 8:43:53 AM
+Junior
+Biology
+StudentDB.Undergrad
+Charles
+Costarella
+3.3
+costarec@uw.edu
+2/24/2021 7:44:10 PM
+Junior
+Computer Science
+StudentDB.Undergrad
+Isabella
+Nuxoll
+3.8
+bellatn@uw.edu
+2/25/2021 8:52:24 AM
+Junior
+IT
+Done writing data - file has been closed.
+
+
+[F]IND A STUDENT RECORD (READ) AND [E]XIT WITHOUT SAVING CHANGES
+
+Reading input file complete...
+
+        -------------------------------------------
+        ---------- Student Database App -----------
+        -------------------------------------------
+        [A]dd a student record          (C in CRUD)
+        [F]ind a student record         (R in CRUD)
+        [M]odify an existing record     (U in CRUD)
+        [D]elete an existing record     (D in CRUD)
+        [P]rint all records
+        [E]xit without saving changes
+        [S]ave changes and quit application
+
+Enter user selection: f
+Enter the email address (primary key) to search: bellatn@uw.edu
+Found email address: bellatn@uw.edu
+
+        -------------------------------------------
+        ---------- Student Database App -----------
+        -------------------------------------------
+        [A]dd a student record          (C in CRUD)
+        [F]ind a student record         (R in CRUD)
+        [M]odify an existing record     (U in CRUD)
+        [D]elete an existing record     (D in CRUD)
+        [P]rint all records
+        [E]xit without saving changes
+        [S]ave changes and quit application
+
+Enter user selection: e
+Done writing data - file has been closed.
+
+
+
+[M]ODIFY AN EXISTING RECORD (UPDATE)
+
+Reading input file complete...
+
+        -------------------------------------------
+        ---------- Student Database App -----------
+        -------------------------------------------
+        [A]dd a student record          (C in CRUD)
+        [F]ind a student record         (R in CRUD)
+        [M]odify an existing record     (U in CRUD)
+        [D]elete an existing record     (D in CRUD)
+        [P]rint all records
+        [E]xit without saving changes
+        [S]ave changes and quit application
+
+Enter user selection: m
+Enter the email address (primary key) to search: bellatn@uw.edu
+Found email address: bellatn@uw.edu
+---------- Student Record ----------
+First Name: Isabella
+ Last Name: Nuxoll
+       GPA: 3.8
+     Email: bellatn@uw.edu
+  Enrolled: 2/25/2021 8:52:24 AM
+      Year: Junior
+     Major: IT
+Editing student type: Undergrad
+
+        ---------------------------------------------
+        ------------- Edit Student Menu -------------
+        ---------------------------------------------
+        [F]irst name
+        [L]ast name
+        [G]rade pt average
+        [E]nrollment date
+        [Y]ear in school             (undergrad only)
+        [D]egree major               (undergrad only)
+        [T]uition teaching credit    (graduate only)
+        Faculty [A]dvisor            (graduate only)
+        ** Email address can never be modified. See admin.
+
+Enter edit menu selection: g
+Enter new student grade pt average: 3.9
+
+Edit operaion done. Current record info:
+---------- Student Record ----------
+First Name: Isabella
+ Last Name: Nuxoll
+       GPA: 3.9
+     Email: bellatn@uw.edu
+  Enrolled: 2/25/2021 8:52:24 AM
+      Year: Junior
+     Major: IT
+Press any key to continue...
+
+        -------------------------------------------
+        ---------- Student Database App -----------
+        -------------------------------------------
+        [A]dd a student record          (C in CRUD)
+        [F]ind a student record         (R in CRUD)
+        [M]odify an existing record     (U in CRUD)
+        [D]elete an existing record     (D in CRUD)
+        [P]rint all records
+        [E]xit without saving changes
+        [S]ave changes and quit application
+
+Enter user selection: sNow writing data to the output file...
+StudentDB.GradStudent
+David
+Dillon
+3.7
+ddillon@uw.edu
+2/11/2021 8:43:53 AM
+11111.99
+Dr. Donald Chinn
+StudentDB.Undergrad
+Alice
+Anderson
+4
+aanderson@uw.edu
+2/11/2021 8:43:53 AM
+Freshman
+Computer Science
+StudentDB.GradStudent
+Bob
+Bradshaw
+3.9
+bbradshaw@uw.edu
+2/11/2021 8:43:53 AM
+22222.99
+Dr. Matt Tolentino
+StudentDB.Undergrad
+Carlos
+Castaneda
+3.8
+ccastaneda@uw.edu
+2/11/2021 8:43:53 AM
+Junior
+Biology
+StudentDB.Undergrad
+Charles
+Costarella
+3.3
+costarec@uw.edu
+2/24/2021 7:44:10 PM
+Junior
+Computer Science
+StudentDB.Undergrad
+Isabella
+Nuxoll
+3.9
+bellatn@uw.edu
+2/25/2021 8:52:24 AM
+Junior
+IT
+Done writing data - file has been closed.
+
+
+[D]ELETE AN EXISTING RECORD (DELETE)
+
+Reading input file complete...
+
+        -------------------------------------------
+        ---------- Student Database App -----------
+        -------------------------------------------
+        [A]dd a student record          (C in CRUD)
+        [F]ind a student record         (R in CRUD)
+        [M]odify an existing record     (U in CRUD)
+        [D]elete an existing record     (D in CRUD)
+        [P]rint all records
+        [E]xit without saving changes
+        [S]ave changes and quit application
+
+Enter user selection: d
+Enter the email address (primary key) to search: bellatn@uw.edu
+Found email address: bellatn@uw.edu
+bellatn@uw.edu has been successfully removed.
+
+        -------------------------------------------
+        ---------- Student Database App -----------
+        -------------------------------------------
+        [A]dd a student record          (C in CRUD)
+        [F]ind a student record         (R in CRUD)
+        [M]odify an existing record     (U in CRUD)
+        [D]elete an existing record     (D in CRUD)
+        [P]rint all records
+        [E]xit without saving changes
+        [S]ave changes and quit application
+
+Enter user selection: sNow writing data to the output file...
+StudentDB.GradStudent
+David
+Dillon
+3.7
+ddillon@uw.edu
+2/11/2021 8:43:53 AM
+11111.99
+Dr. Donald Chinn
+StudentDB.Undergrad
+Alice
+Anderson
+4
+aanderson@uw.edu
+2/11/2021 8:43:53 AM
+Freshman
+Computer Science
+StudentDB.GradStudent
+Bob
+Bradshaw
+3.9
+bbradshaw@uw.edu
+2/11/2021 8:43:53 AM
+22222.99
+Dr. Matt Tolentino
+StudentDB.Undergrad
+Carlos
+Castaneda
+3.8
+ccastaneda@uw.edu
+2/11/2021 8:43:53 AM
+Junior
+Biology
+StudentDB.Undergrad
+Charles
+Costarella
+3.3
+costarec@uw.edu
+2/24/2021 7:44:10 PM
+Junior
+Computer Science
+Done writing data - file has been closed.
+
+
+[P]RINT ALL RECORDS
+
+Reading input file complete...
+
+        -------------------------------------------
+        ---------- Student Database App -----------
+        -------------------------------------------
+        [A]dd a student record          (C in CRUD)
+        [F]ind a student record         (R in CRUD)
+        [M]odify an existing record     (U in CRUD)
+        [D]elete an existing record     (D in CRUD)
+        [P]rint all records
+        [E]xit without saving changes
+        [S]ave changes and quit application
+
+Enter user selection: p
+
+---------- Student Record ----------
+First Name: David
+ Last Name: Dillon
+       GPA: 3.7
+     Email: ddillon@uw.edu
+  Enrolled: 2/11/2021 8:43:53 AM
+    Credit: $11,111.99
+       Fac: Dr. Donald Chinn
+
+
+---------- Student Record ----------
+First Name: Alice
+ Last Name: Anderson
+       GPA: 4
+     Email: aanderson@uw.edu
+  Enrolled: 2/11/2021 8:43:53 AM
+      Year: Freshman
+     Major: Computer Science
+
+
+---------- Student Record ----------
+First Name: Bob
+ Last Name: Bradshaw
+       GPA: 3.9
+     Email: bbradshaw@uw.edu
+  Enrolled: 2/11/2021 8:43:53 AM
+    Credit: $22,222.99
+       Fac: Dr. Matt Tolentino
+
+
+---------- Student Record ----------
+First Name: Carlos
+ Last Name: Castaneda
+       GPA: 3.8
+     Email: ccastaneda@uw.edu
+  Enrolled: 2/11/2021 8:43:53 AM
+      Year: Junior
+     Major: Biology
+
+
+---------- Student Record ----------
+First Name: Charles
+ Last Name: Costarella
+       GPA: 3.3
+     Email: costarec@uw.edu
+  Enrolled: 2/24/2021 7:44:10 PM
+      Year: Junior
+     Major: Computer Science
+
+        -------------------------------------------
+        ---------- Student Database App -----------
+        -------------------------------------------
+        [A]dd a student record          (C in CRUD)
+        [F]ind a student record         (R in CRUD)
+        [M]odify an existing record     (U in CRUD)
+        [D]elete an existing record     (D in CRUD)
+        [P]rint all records
+        [E]xit without saving changes
+        [S]ave changes and quit application
+
+Enter user selection: e
+Done writing data - file has been closed.
+

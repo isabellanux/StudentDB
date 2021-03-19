@@ -1,0 +1,40 @@
+StudentDB.GradStudent
+David
+Dillon
+3.7
+ddillon@uw.edu
+2/11/2021 8:43:53 AM
+11111.99
+Dr. Donald Chinn
+StudentDB.Undergrad
+Alice
+Anderson
+4
+aanderson@uw.edu
+2/11/2021 8:43:53 AM
+Freshman
+Computer Science
+StudentDB.GradStudent
+Bob
+Bradshaw
+3.9
+bbradshaw@uw.edu
+2/11/2021 8:43:53 AM
+22222.99
+Dr. Matt Tolentino
+StudentDB.Undergrad
+Carlos
+Castaneda
+3.8
+ccastaneda@uw.edu
+2/11/2021 8:43:53 AM
+Junior
+Biology
+StudentDB.Undergrad
+Charles
+Costarella
+3.3
+costarec@uw.edu
+2/24/2021 7:44:10 PM
+Junior
+Computer Science
